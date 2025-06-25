@@ -5,14 +5,14 @@ Steps to create Student Record Management System
 
 2.Import Packages import java.util.Scanner; import java.util.ArrayList;
 
-Create ArrayList ArrayList students = new ArrayList<>();
+3.Create ArrayList ArrayList students = new ArrayList<>();
 
-Create Scanner Object Scanner sc = new Scanner(System.in);
+4.Create Scanner Object Scanner sc = new Scanner(System.in);
 
-Display Menu in Loop Options: Add, View, Update, Delete, Exit
+5.Display Menu in Loop Options: Add, View, Update, Delete, Exit
 
-Perform Operations Add: Take input → Create object → Add to ArrayList View: Loop through ArrayList → Display students Update: Search by ID → Modify details Delete: Search by ID → Remove from ArrayList Exit Program
+6.Perform Operations Add: Take input → Create object → Add to ArrayList View: Loop through ArrayList → Display students Update: Search by ID → Modify details Delete: Search by ID → Remove from ArrayList Exit Program
 
-Use System.exit(0); or break the loop
+7.Use System.exit(0); or break the loop
 
-Close Scanner sc.close();
+8.Close Scanner sc.close();
